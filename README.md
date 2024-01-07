@@ -19,7 +19,7 @@
   
 
 3. Path saat install Tesseract OCR Wajib di folder seperti contoh dibawah:
-- `C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe`
+- `C:\Users\yooma\AppData\Local\Tesseract-OCR`
   (Ganti `yooma` dengan user computer masing masing)
 
 
