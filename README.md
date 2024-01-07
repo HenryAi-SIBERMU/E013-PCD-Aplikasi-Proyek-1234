@@ -13,14 +13,17 @@
 ## 📍 Note Project 2 - OCR
 1. Git Clone/Download repo
    
-3. Install Tesseract OCR for windows/mac user
+   
+2. Install Tesseract OCR for windows/mac user
 - [Tesseract OCR for Windows/Mac](https://github.com/UB-Mannheim/tesseract/wiki)
+  
 
-3. Copy Path Instalan Wajib di local seperti
-- C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe
+3. Path saat install Tesseract OCR Wajib di folder seperti contoh dibawah:
+- `C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe`
   (Ganti `yooma` dengan user computer masing masing)
 
-- Tambahkan Script Berikut dibawah `import pytesseract` (Ganti  `yooma` dengan nama user komputer masing masing): 
+
+4. Tambahkan Script Berikut dibawah `import pytesseract` (Ganti  `yooma` dengan nama user komputer masing masing): 
 ```bash
  pytesseract.pytesseract.tesseract_cmd = r'C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe'
 ```
