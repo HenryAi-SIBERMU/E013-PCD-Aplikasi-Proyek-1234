@@ -6,7 +6,7 @@
    
 3. Tambahkan Script Berikut dibawah  `if __name__=="__main__` : 
 ```bash
-  img = cv2.imread('image.jpeg', 1) 
+   img = cv2.imread('image.jpeg', 1) 
    cv2.imshow('image', img) 
 ```
 
@@ -20,7 +20,7 @@
 - C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe
   (Ganti yoooma dengan user computer masing masing)
 
-- Tambahkan Script Berikut dibawah `import pytesseract`: 
+- Tambahkan Script Berikut dibawah `import pytesseract` (Ganti Yooma denagan nama user komputer masing masing): 
 ```bash
  pytesseract.pytesseract.tesseract_cmd = r'C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe'
 ```
