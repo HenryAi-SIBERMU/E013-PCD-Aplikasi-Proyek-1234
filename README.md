@@ -2,7 +2,7 @@
 # E013 PCD (Pengolahan Citra Digital) - Aplikasi Proyek 1,2,3,4
 
 ## 📍 Note Project 1 - Koordinat Gambar
-1. Git Clone
+1. Git Clone/Download repo
    
 3. Tambahkan Script Berikut dibawah  `if __name__=="__main__` : 
 ```bash
@@ -11,16 +11,16 @@
 ```
 
 ## 📍 Note Project 2 - OCR
-1. Git Clone
+1. Git Clone/Download repo
    
 3. Install Tesseract OCR for windows/mac user
 - [Tesseract OCR for Windows/Mac](https://github.com/UB-Mannheim/tesseract/wiki)
 
 3. Copy Path Instalan Wajib di local seperti
 - C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe
-  (Ganti yoooma dengan user computer masing masing)
+  (Ganti `yooma` dengan user computer masing masing)
 
-- Tambahkan Script Berikut dibawah `import pytesseract` (Ganti Yooma denagan nama user komputer masing masing): 
+- Tambahkan Script Berikut dibawah `import pytesseract` (Ganti  `yooma` dengan nama user komputer masing masing): 
 ```bash
  pytesseract.pytesseract.tesseract_cmd = r'C:\Users\yooma\AppData\Local\Tesseract-OCR\tesseract.exe'
 ```
